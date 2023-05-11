@@ -1,0 +1,164 @@
+body {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-left: -10px;
+  margin-top: -10px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  opacity: 75%;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  border: 1px solid transparent;
+  padding: 20px 0;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 10px -10px 0;
+  text-decoration: unset;
+  font-size: 15px;
+  font-family: "Titillium Web";
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.navbar a:hover {
+  color: pink;
+}
+
+.nav {
+  text-align: right;
+}
+
+.isi {
+  width: 1000px;
+  padding: 100px 0 100px 50px;
+  background-color: white;
+  margin: 30px 0 0 0;
+  box-sizing: border-box;
+  border: 1px solid white;
+  opacity: 80%;
+}
+
+.login h1 {
+  margin: 100px 0 0 0;
+  color: white;
+  font-family: "Titillium Web";
+  font-weight: bold;
+  font-size: 70pt;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.note {
+  position: absolute;
+  top: 220px;
+  width: 1000px;
+  padding: 10px;
+  background-color: transparent;
+  font-family: "Titillium Web";
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.isi .bio {
+  text-align: center;
+  float: right;
+  width: 450px;
+  height: 375px;
+  background-color: white;
+  margin-right: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+.isi .bio .bioooo {
+  margin: 40px 0 50px 0px;
+}
+
+.isi .bio .bioooo label {
+  font-family: "Titillium Web";
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+.isi .bio .bioooo [type="text"] {
+  margin: 10px 0 30px;
+  text-align: center;
+  width: 390px;
+  color: black;
+  padding: 10px;
+}
+
+.isi .bio .bioooo [type="password"] {
+  margin: 10px 0;
+  text-align: center;
+  width: 390px;
+  color: black;
+  padding: 10px;
+}
+
+.isi .bio .bioooo input {
+  color: black;
+  font-family: "Titillium Web";
+  font-weight: bold;
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.isi .bio .bioooo button {
+  margin-top: 40px;
+  margin-bottom: -20px;
+  width: 410px;
+  padding: 7px;
+  color: black;
+  font-family: "Titillium Web";
+  font-weight: bold;
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.isi img {
+  width: 40%;
+  border-radius: 10%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 105%;
+  padding: 0px;
+  background-color: black;
+  font-family: "Titillium Web";
+  color: white;
+  margin-right: 50px;
+  margin-top: 80px;
+  margin-bottom: -5px;
+  font-size: 15px;
+
+  font-weight: bold;
+  margin-left: -25px;
+}
+
+.copyright {
+  color: white;
+  padding: 0px;
+}
